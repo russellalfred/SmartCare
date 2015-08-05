@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.faezmurshidiadnan.smartcare">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+
+    <application tools:replace="android:icon, android:label, android:theme"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="SmartCare"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainSplashScreen"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Welcome"></activity>
+        <activity android:name=".FirstActivity"></activity>
+        <activity android:name=".SecondActivity"></activity>
+        <activity android:name=".ThirdActivity"></activity>
+        <activity android:name=".FourthActivity"></activity>
+        <activity android:name=".FifthActivity"></activity>
+        <activity android:name=".SixthActivity"></activity>
+
+        <activity android:name="com.microsoft.hsg.android.simplexml.ShellActivity"></activity>
+
+        <activity android:name=".MainActivity"></activity>
+
+
+    </application>
+
+</manifest>
