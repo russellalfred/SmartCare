@@ -8,21 +8,24 @@ import android.view.MenuItem;
 import android.view.View;
 
 
-public class SeventhActivity extends MainActivity {
+public class Emergency extends MainActivity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         LayoutInflater inflater = (LayoutInflater) this
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View contentView = inflater.inflate(R.layout.activity_seventh, null, false);
+        View contentView = inflater.inflate(R.layout.activity_fourth, null, false);
         mDrawerLayout.addView(contentView, 0);
+
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_seventh, menu);
+        getMenuInflater().inflate(R.menu.menu_fourth, menu);
         return true;
     }
 

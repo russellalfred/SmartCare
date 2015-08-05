@@ -76,32 +76,32 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Intent intent = null;
         if (mSelectedId == R.id.navigation_item_2) {
             mDrawerLayout.closeDrawer(GravityCompat.START);
-            intent = new Intent(this, SecondActivity.class);
+            intent = new Intent(this, Condition.class);
             startActivity(intent);
         }
         if (mSelectedId == R.id.navigation_item_3) {
             mDrawerLayout.closeDrawer(GravityCompat.START);
-            intent = new Intent(this, ThirdActivity.class);
+            intent = new Intent(this, Allergy.class);
             startActivity(intent);
         }
         if (mSelectedId == R.id.navigation_item_4) {
             mDrawerLayout.closeDrawer(GravityCompat.START);
-            intent = new Intent(this, FourthActivity.class);
+            intent = new Intent(this, Emergency.class);
             startActivity(intent);
         }
         if (mSelectedId == R.id.navigation_item_5) {
             mDrawerLayout.closeDrawer(GravityCompat.START);
-            intent = new Intent(this, FifthActivity.class);
+            intent = new Intent(this, About.class);
             startActivity(intent);
         }
         if (mSelectedId == R.id.navigation_item_6) {
             mDrawerLayout.closeDrawer(GravityCompat.START);
-            intent = new Intent(this, SixthActivity.class);
+            intent = new Intent(this, Test.class);
             startActivity(intent);
         }
         if (mSelectedId == R.id.navigation_item_7) {
             mDrawerLayout.closeDrawer(GravityCompat.START);
-            intent = new Intent(this, SeventhActivity.class);
+            intent = new Intent(this, Settings.class);
             startActivity(intent);
         }
     }

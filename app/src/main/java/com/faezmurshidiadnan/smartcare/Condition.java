@@ -8,7 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 
-public class SecondActivity extends MainActivity {
+public class Condition extends MainActivity {
 
 
     @Override

@@ -8,7 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 
-public class FourthActivity extends MainActivity {
+public class Allergy extends MainActivity {
 
 
 
@@ -17,7 +17,7 @@ public class FourthActivity extends MainActivity {
         super.onCreate(savedInstanceState);
         LayoutInflater inflater = (LayoutInflater) this
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View contentView = inflater.inflate(R.layout.activity_fourth, null, false);
+        View contentView = inflater.inflate(R.layout.activity_third, null, false);
         mDrawerLayout.addView(contentView, 0);
 
     }
@@ -44,3 +44,4 @@ public class FourthActivity extends MainActivity {
         return super.onOptionsItemSelected(item);
     }
 }
+

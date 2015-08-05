@@ -22,13 +22,13 @@
         </activity>
 
         <activity android:name=".Welcome"></activity>
-        <activity android:name=".FirstActivity"></activity>
-        <activity android:name=".SecondActivity"></activity>
-        <activity android:name=".ThirdActivity"></activity>
-        <activity android:name=".FourthActivity"></activity>
-        <activity android:name=".FifthActivity"></activity>
-        <activity android:name=".SixthActivity"></activity>
-        <activity android:name=".SeventhActivity"></activity>
+        <activity android:name=".Home"></activity>
+        <activity android:name=".Condition"></activity>
+        <activity android:name=".Allergy"></activity>
+        <activity android:name=".Emergency"></activity>
+        <activity android:name=".About"></activity>
+        <activity android:name=".Test"></activity>
+        <activity android:name=".Settings"></activity>
 
         <activity android:name="com.microsoft.hsg.android.simplexml.ShellActivity"></activity>
 

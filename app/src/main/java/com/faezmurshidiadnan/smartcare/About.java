@@ -8,16 +8,14 @@ import android.view.MenuItem;
 import android.view.View;
 
 
-public class ThirdActivity extends MainActivity {
-
-
+public class About extends MainActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         LayoutInflater inflater = (LayoutInflater) this
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View contentView = inflater.inflate(R.layout.activity_third, null, false);
+        View contentView = inflater.inflate(R.layout.activity_fifth, null, false);
         mDrawerLayout.addView(contentView, 0);
 
     }
@@ -25,7 +23,7 @@ public class ThirdActivity extends MainActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_fourth, menu);
+        getMenuInflater().inflate(R.menu.menu_fifth, menu);
         return true;
     }
 
@@ -44,4 +42,3 @@ public class ThirdActivity extends MainActivity {
         return super.onOptionsItemSelected(item);
     }
 }
-
